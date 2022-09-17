@@ -7,5 +7,6 @@ void ejercicios()
 {
     // ejercicioVectores();
     // ejercicioCaesarCipher();
-    ejercicioCountingChars();
+    // ejercicioCountingChars();
+    ejercicioJapanizer();
 }

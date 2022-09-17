@@ -3,4 +3,6 @@
 void ejercicioVectores();
 void ejercicioCaesarCipher();
 void ejercicioCountingChars(); // Modificar
+void ejercicioJapanizer();
+
 void ejercicios();
