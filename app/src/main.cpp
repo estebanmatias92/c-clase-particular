@@ -1,15 +1,12 @@
 #include <iostream>
 #include <string>
-#include "caesar-cipher.hpp"
+#include "ejercicios.hpp"
 
 using namespace std;
 
 int main()
 {
-    string msg = "\nHello World!!!\n";
-
-    cout << msg;
-    cout << caesarCipher(msg) << endl;
+    ejercicios();
 
     return 0;
 }

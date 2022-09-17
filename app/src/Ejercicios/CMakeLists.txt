@@ -7,7 +7,7 @@ project(${ProjectID})
 
 # Add the binary files
 set(SOURCE_FILES 
-    caesar-cipher.cpp 
+    ejercicios.cpp 
 )
 # Set the include path for this module
 set(INCLUDE_DIR ${CMAKE_SOURCE_DIR}/include/${PROJECT_NAME})
@@ -19,3 +19,12 @@ add_library(${PROJECT_NAME} ${SOURCE_FILES})
 target_include_directories(${PROJECT_NAME} 
     PUBLIC
     ${INCLUDE_DIR})
+
+
+    # Create dynamic source list
+file(GLOB EJERCICIOS_SOURCES *.cpp)
+# Remove main file from source list
+list(REMOVE_ITEM EJERCICIOS_SOURCES ${SOURCE_FILES})
+target_sources(${PROJECT_NAME} 
+    PRIVATE 
+    ${EJERCICIOS_SOURCES})

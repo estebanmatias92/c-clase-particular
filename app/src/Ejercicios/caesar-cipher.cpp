@@ -1,8 +1,18 @@
 #include <iostream>
 #include <string>
-#include "caesar-cipher.hpp"
+#include "ejercicios.hpp"
 
 using namespace std;
+
+string caesarCipher(const string &message, int shift = 3);
+
+void ejercicioCaesarCipher()
+{
+    string msg = "\nEl Zorro usaba un Encriptador de CESAR\n";
+
+    cout << msg;
+    cout << caesarCipher(msg) << endl;
+}
 
 /*
     Funcion que toma un mensaje y lo encripta.
