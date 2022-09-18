@@ -10,6 +10,8 @@ string contarConsecutivos(string message);
 void ejercicioCountingChars()
 {
     string msg = "BBBBAVAAAAACC-123cCCC";
+    cout << "Ingrese caracteres: ";
+    getline(cin, msg);
 
     cout << endl
          << "Original: " << msg << endl
