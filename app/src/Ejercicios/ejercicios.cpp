@@ -8,5 +8,8 @@ void ejercicios()
     // ejercicioVectores();
     // ejercicioCaesarCipher();
     // ejercicioCountingChars();
-    ejercicioJapanizer();
+    // ejercicioJapanizer();
+    // ejercicioSquashGame();
+    // ejercicioNumeroModa();
+    ejercicioNumeroModa2();
 }
