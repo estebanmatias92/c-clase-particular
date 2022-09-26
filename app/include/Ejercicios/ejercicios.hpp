@@ -8,4 +8,6 @@ void ejercicioSquashGame();
 void ejercicioNumeroModa();
 void ejercicioNumeroModa2();
 
+void ejemploScopes();
+
 void ejercicios();

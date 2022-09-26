@@ -11,5 +11,6 @@ void ejercicios()
     // ejercicioJapanizer();
     // ejercicioSquashGame();
     // ejercicioNumeroModa();
-    ejercicioNumeroModa2();
+    // ejercicioNumeroModa2();
+    ejemploScopes();
 }
