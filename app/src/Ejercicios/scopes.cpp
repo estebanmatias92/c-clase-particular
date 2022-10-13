@@ -12,6 +12,7 @@ string variable_global = "Soy una variable global";
 
 void ejemploScopes()
 {
+    string variable_global = "Hago de cuenta que soy global";
     string variable_local = "Soy una variable local en 'ejemploScopes()'"; // LOCAL a esta funcion
 
     cout << endl
@@ -25,7 +26,7 @@ void ejemploScopes()
          << endl;
 
     // Segundo llamado a una funcion
-    saludarConParametros(variable_local); // Pasar variable LOCAL adentro de una funcion
+    saludarConParametros(variable_global); // Pasar variable LOCAL adentro de una funcion
 
     cout << endl
          << "FINAL programa principal 'ejemploScopes()'" << endl;
