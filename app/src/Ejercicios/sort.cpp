@@ -5,7 +5,8 @@
 
 using namespace std;
 
-void selectionSort();
+void selectionSort(vector<int> &numeros);
+void swap(int *a, int *b);
 
 void ejemploSort()
 {
@@ -30,19 +31,8 @@ void ejemploSort()
         numeros.push_back(entero);
     }
 
-    // Ordenando
-    for (int j = 0; j < tam; j++)
-    {
-        for (int t = j + 1; t < tam; t++)
-        {
-            if (numeros[j] < numeros[t])
-            {
-                num = numeros[j];
-                numeros[j] = numeros[t];
-                numeros[t] = num;
-            }
-        }
-    }
+    // Ordenando el vector
+    selectionSort(numeros);
 
     // Mostrando los resultados
     cout << endl
@@ -54,4 +44,34 @@ void ejemploSort()
     cout << endl;
 }
 
-void selectionSort() {}
+/*
+    Ordenamiento de un vector por selección
+*/
+void selectionSort(vector<int> &conjunto)
+{
+    size_t size = conjunto.size(); // Guardar el tamaño del vector
+
+    for (int step = 0; step < size - 1; step++) // Iterar paso por paso
+    {
+        int min_i = step; // Guardar momentaneamente, la posicion actual como el valor minimo actual para comparar
+
+        for (int i = step + 1; i < size; i++) // Iterar desde el paso hasta el final
+        {
+            if (conjunto[i] < conjunto[min_i])
+                min_i = i; // Guardar la nueva posicion menor
+        }
+
+        // Intercambiar valores de las posiciones
+        swap(conjunto[min_i], conjunto[step]);
+    }
+}
+
+/*
+    Intercambio tipico de valores entre dos variables
+*/
+void swap(int *a, int *b)
+{
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
