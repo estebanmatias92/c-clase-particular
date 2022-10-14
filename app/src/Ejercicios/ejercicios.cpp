@@ -12,5 +12,7 @@ void ejercicios()
     // ejercicioSquashGame();
     // ejercicioNumeroModa();
     // ejercicioNumeroModa2();
-    ejemploScopes();
+
+    // ejemploScopes();
+    ejemploSort();
 }

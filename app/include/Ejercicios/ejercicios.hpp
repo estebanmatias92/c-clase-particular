@@ -9,5 +9,6 @@ void ejercicioNumeroModa();
 void ejercicioNumeroModa2();
 
 void ejemploScopes();
+void ejemploSort();
 
 void ejercicios();
