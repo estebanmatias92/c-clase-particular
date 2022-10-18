@@ -14,5 +14,6 @@ void ejercicios()
     // ejercicioNumeroModa2();
 
     // ejemploScopes();
-    ejemploSort();
+    // ejemploSort();
+    ejemploPointers();
 }
