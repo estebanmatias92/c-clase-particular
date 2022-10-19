@@ -15,5 +15,6 @@ void ejercicios()
 
     // ejemploScopes();
     // ejemploSort();
-    ejemploPointers();
+    // ejemploPointers();
+    ejemplo_ObjetosCNumber();
 }

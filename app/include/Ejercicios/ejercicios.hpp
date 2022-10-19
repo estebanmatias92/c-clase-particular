@@ -11,5 +11,6 @@ void ejercicioNumeroModa2();
 void ejemploScopes();
 void ejemploSort();
 void ejemploPointers();
+void ejemplo_ObjetosCNumber();
 
 void ejercicios();
