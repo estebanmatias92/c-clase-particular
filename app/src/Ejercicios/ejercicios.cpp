@@ -12,9 +12,10 @@ void ejercicios()
     // ejercicioSquashGame();
     // ejercicioNumeroModa();
     // ejercicioNumeroModa2();
+    ejercicioObjetosTriangulo();
 
     // ejemploScopes();
     // ejemploSort();
     // ejemploPointers();
-    ejemplo_ObjetosCNumber();
+    // ejemplo_ObjetosCNumber();
 }

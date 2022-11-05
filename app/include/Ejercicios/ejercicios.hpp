@@ -2,11 +2,12 @@
 
 void ejercicioVectores();
 void ejercicioCaesarCipher();
-void ejercicioCountingChars(); // Modificar
+void ejercicioCountingChars();
 void ejercicioJapanizer();
 void ejercicioSquashGame();
 void ejercicioNumeroModa();
 void ejercicioNumeroModa2();
+void ejercicioObjetosTriangulo();
 
 void ejemploScopes();
 void ejemploSort();
