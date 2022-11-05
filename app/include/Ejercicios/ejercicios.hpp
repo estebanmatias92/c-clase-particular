@@ -9,6 +9,8 @@ void ejercicioNumeroModa();
 void ejercicioNumeroModa2();
 void ejercicioObjetosTriangulo();
 
+void ejercicioObjetosNuevo();
+
 void ejemploScopes();
 void ejemploSort();
 void ejemploPointers();
