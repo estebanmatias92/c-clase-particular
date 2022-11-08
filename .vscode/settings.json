@@ -81,4 +81,5 @@
 	// Linters
 	"c-cpp-flylint.enable": false,
 	"c-cpp-flylint.cppcheck.enable": true,
+	"C_Cpp.errorSquiggles": "Disabled",
 }

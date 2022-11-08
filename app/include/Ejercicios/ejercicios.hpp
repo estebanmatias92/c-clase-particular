@@ -8,6 +8,7 @@ void ejercicioSquashGame();
 void ejercicioNumeroModa();
 void ejercicioNumeroModa2();
 void ejercicioObjetosTriangulo();
+void ejercicioObjetosPersona();
 
 void ejercicioObjetosNuevo();
 

@@ -13,9 +13,9 @@ void ejercicios()
     // ejercicioNumeroModa();
     // ejercicioNumeroModa2();
     // ejercicioObjetosTriangulo();
+    ejercicioObjetosPersona();
 
-    ejercicioObjetosNuevo();
-
+    //ejercicioObjetosNuevo();
     // ejemploScopes();
     // ejemploSort();
     // ejemploPointers();
